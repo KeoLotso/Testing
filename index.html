@@ -3,17 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Discord Auth</title>
+  <title>KCH Test</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header id="profileBar" class="profile-bar hidden">
+    <img id="avatar" class="avatar" src="" alt="Profile" />
+    <span id="username"></span>
+    <button id="logoutBtn" class="logout-btn">Logout</button>
+  </header>
+  
   <main class="container">
-    <h1>Sign in with Discord</h1>
+    <h1>Welcome to the KCH Test website</h1>
+    <p>This is pretty much uninteresting for you but there might be some cool stuff soon, but you will hear from us in the Discord Server.</p>
     <div id="card" class="card">
       <button id="loginBtn" class="btn">Login with Discord</button>
       <div id="status" class="status"></div>
     </div>
   </main>
+
   <script 
     src="script.js" 
     defer 
@@ -22,5 +30,3 @@
   </script>
 </body>
 </html>
-
-
