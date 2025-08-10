@@ -13,7 +13,7 @@ export default async function handler(req, res) {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams({
-        client_id: 'YOUR_CLIENT_ID',
+        client_id: '1380895640556408862',
         client_secret: process.env.CLIENT_SECRET,
         grant_type: 'authorization_code',
         code,
@@ -31,3 +31,4 @@ export default async function handler(req, res) {
     return res.status(500).json({ success: false, error: 'Internal server error' });
   }
 }
+
